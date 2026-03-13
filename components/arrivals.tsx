@@ -1,7 +1,7 @@
 import React from 'react'
 import { ArrowLeft, ArrowRight, Heart, ShoppingCart } from 'lucide-react'
 
-const arrivals = () => {
+const Arrivals = () => {
     return (
         <section className="max-w-7xl mx-auto px-6 py-24">
             <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
@@ -71,4 +71,4 @@ const arrivals = () => {
     )
 }
 
-export default arrivals
+export default Arrivals

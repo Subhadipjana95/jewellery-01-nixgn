@@ -1,6 +1,6 @@
 import React from 'react'
 
-const cta = () => {
+const CTA = () => {
     return (
         <section className="bg-[#a91d1d] relative overflow-hidden py-24 min-h-[500px] flex items-center">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 relative z-10 w-full items-center">
@@ -31,4 +31,4 @@ const cta = () => {
     )
 }
 
-export default cta
+export default CTA

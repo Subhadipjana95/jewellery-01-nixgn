@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from './common/navbar'
+import Navbar from './common/Navbar'
 import { ArrowRight, Play } from 'lucide-react'
 
-const hero = () => {
+const Hero = () => {
     return (
         <section className="relative w-full min-h-screen lg:h-[90vh] flex flex-col items-center overflow-hidden">
             {/* Hero Background */}
@@ -77,4 +77,4 @@ const hero = () => {
     )
 }
 
-export default hero
+export default Hero

@@ -1,7 +1,7 @@
 import { ShoppingCart } from 'lucide-react'
 import React from 'react'
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav className="relative z-20 w-full pl-6 pr-8 py-6 flex items-center justify-between text-[#e9e4d8]">
           <div className="flex items-center gap-8">
@@ -32,4 +32,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

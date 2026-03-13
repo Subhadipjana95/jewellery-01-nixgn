@@ -1,6 +1,6 @@
 import React from 'react'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
-const testimonials = () => {
+const Testimonials = () => {
     return (
         <section className="bg-[#f4efe4] py-24">
             <div className="max-w-7xl mx-auto px-6 text-center">
@@ -23,7 +23,7 @@ const testimonials = () => {
                             />
                             <div>
                                 <p className="text-sm text-[#5e5a52] italic mb-4 leading-relaxed font-medium">
-                                    "Honestly, any of those will fit my aesthetic! So choose form EFRONA. This set is killer. No doubt out of the quality as the material is supposed my expectations."
+                                    &quot;Honestly, any of those will fit my aesthetic! So choose form EFRONA. This set is killer. No doubt out of the quality as the material is supposed my expectations.&quot;
                                 </p>
                                 <p className="text-[#1e1e1e] font-serif font-bold text-lg">Eloy D.</p>
                             </div>
@@ -38,7 +38,7 @@ const testimonials = () => {
                             />
                             <div>
                                 <p className="text-sm text-[#5e5a52] italic mb-4 leading-relaxed font-medium">
-                                    "I've been a works of art more than 3 months now... So quality and elegant."
+                                    &quot;I&apos;ve been a works of art more than 3 months now... So quality and elegant.&quot;
                                 </p>
                                 <p className="text-[#1e1e1e] font-serif font-bold text-lg">Chloe B.</p>
                             </div>
@@ -54,4 +54,4 @@ const testimonials = () => {
     )
 }
 
-export default testimonials
+export default Testimonials

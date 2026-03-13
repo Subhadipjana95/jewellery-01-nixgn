@@ -1,6 +1,6 @@
 import React from 'react'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
-const collection = () => {
+const Collection = () => {
   return (
     <section className="max-w-7xl mx-auto px-6 py-24">
         <div className="flex items-end justify-between mb-12">
@@ -21,7 +21,7 @@ const collection = () => {
             { name: "Rings", img: "https://images.unsplash.com/photo-1605100804763-247f6612d542?q=80&w=800&auto=format&fit=crop" },
             { name: "Earrings", img: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop" },
           ].map((item) => (
-            <div key={item.name} className="group relative aspect-[4/3] bg-white overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 cursor-pointer">
+            <div key={item.name} className="group relative aspect-4/3 bg-white overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 cursor-pointer">
               <img src={item.img} alt={item.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out" />
               <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
               
@@ -39,4 +39,4 @@ const collection = () => {
   )
 }
 
-export default collection
+export default Collection

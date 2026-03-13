@@ -1,10 +1,10 @@
-import { ArrowLeft, ArrowRight, Heart, Play, ShoppingCart } from "lucide-react"
-import Hero from "@/components/hero"
-import Collection from "@/components/collection"
-import CTA from "@/components/cta"
-import Footer from "@/components/common/footer"
-import Arrivals from "@/components/arrivals"
-import Testimonials from "@/components/testimonials"
+
+import Hero from "@/components/Hero"
+import Collection from "@/components/Collection"
+import CTA from "@/components/CTA"
+import Footer from "@/components/common/Footer"
+import Arrivals from "@/components/Arrivals"
+import Testimonials from "@/components/Testimonials"
 
 export default function Page() {
   return (
@@ -24,7 +24,7 @@ export default function Page() {
               CEO and designer
             </h2>
             <p className="text-sm text-[#5e5a52] leading-relaxed mb-8">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
             </p>
             <button className="bg-[#a91d1d] hover:bg-[#8b1818] text-white px-8 py-3 text-sm tracking-wider transition-colors shadow-none hover:shadow-lg">
               Contact Me
