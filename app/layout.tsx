@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google"
+import { Geist, Geist_Mono, Playfair_Display } from "next/font/google"
 
 import "./globals.css"
 import { cn } from "@/lib/utils";
@@ -13,6 +13,11 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
+const fontSerif = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-serif",
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,7 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("antialiased", fontMono.variable, "font-sans", fontSans.variable)}
+      className={cn("antialiased", fontMono.variable, "font-sans", fontSans.variable, fontSerif.variable)}
     >
       <body>
         {children}
