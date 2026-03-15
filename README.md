@@ -1,6 +1,6 @@
-# Next.js template
+# Jewellery Business Landing Page
 
-This is a Next.js template with shadcn/ui.
+This is a Jewellery Business Landing Page with shadcn/ui under NIXGN.
 
 ## Adding components
 
